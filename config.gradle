@@ -29,7 +29,7 @@ ext {
     supportLibrary = "28.0.0"
     dependencies = [
             // ${supportLibrary}表示引用一个变量
-            "appcompat"      : "com.android.support:appcompat-v7:${supportLibrary}",
+            "appcompat"      : 'androidx.appcompat:appcompat:1.0.0',
             "recyclerview": "com.android.support:recyclerview-v7:${supportLibrary}",
             "constraint"     : "com.android.support.constraint:constraint-layout:1.1.3",
             "okhttp3"        : "com.squareup.okhttp3:okhttp:3.10.0",

@@ -14,7 +14,7 @@ android {
         versionCode rootAndroidId.versionCode
         versionName rootAndroidId.versionName
 
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
     }
 

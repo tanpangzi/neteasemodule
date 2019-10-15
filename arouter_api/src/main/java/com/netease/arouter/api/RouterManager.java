@@ -3,10 +3,11 @@ package com.netease.arouter.api;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
-import android.support.annotation.NonNull;
 import android.text.TextUtils;
 import android.util.Log;
 import android.util.LruCache;
+
+import androidx.annotation.NonNull;
 
 import com.netease.arouter.annotation.model.RouterBean;
 import com.netease.arouter.api.core.ARouterLoadGroup;
